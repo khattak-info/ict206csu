@@ -1,0 +1,34 @@
+title: Repository for ITC206 - Programming in Java 1 teaching materials.
+description: Hasan Ali Khattak Senior Lecturer Charles Sturt University, 2026. hasanali.khattak@navitas.com
+exclude:
+  - tests/
+plugins:
+  - jekyll-remote-theme
+  - jekyll-relative-links
+
+remote_theme: carlosperate/jekyll-theme-rtd
+
+# Theme settings
+site_author: Hasan Ali Khattak
+lang: en
+locale: en_US
+repo_url: 'https://github.com/khattak-info/ict206csu/'
+edit_on_github: true
+github_branch: main
+sticky_navigation: true
+# nav_external_links:
+#   - title: Jekyll RTD Theme on GitHub
+#     url: 'https://github.com/carlosperate/jekyll-theme-rtd'
+#   - section: Links
+#   - title: Jekyll RTD Theme on GitHub I
+#     url: 'https://github.com/carlosperate/jekyll-theme-rtd'
+prev_next_buttons_location: both
+search_enabled: true
+# hljs_style: atom-one-dark
+hljs_languages: [java, ruby, python, javascript, bash, yaml, markdown]
+# admonitions: true
+# mermaid: true
+# display_version: 1.4.0
+# social_image: docs/assets/img/jekyll-rtd-social-media.jpg
+# social_image_alt: "Social media card image for the Jekyll RTD theme, showing the logo and project title."
+# fediverse: "@carlosperate@mastodon.social"
