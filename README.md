@@ -1,6 +1,11 @@
 # ict206csu
 
-Repository for ITC206 - Programming in Java 1 teaching materials.
+## Repository for ITC206 - Programming in Java 1 teaching materials.
+
+Hasan Ali Khattak
+Senior Lecturer
+Charles Sturt University, 2026.
+hasanali.khattak@navitas.com
 
 ## Structure
 
