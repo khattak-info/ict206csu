@@ -1,8 +1,6 @@
 Create a Student class with the following attributes: name, age, and grade. Implement a method to display the student's information in a formatted string. 
 
-Additionally, create a method to update the student's grade. 
-
-Finally, create an instance of the Student class and demonstrate the functionality of both methods.
+Additionally, create a method to update the student's grade and another to show the student's information after the grade has been updated.
 
 In Admission Class, enroll three different students and display their information using the display method. 
 
