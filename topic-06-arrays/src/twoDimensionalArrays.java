@@ -11,7 +11,7 @@ public class twoDimensionalArrays {
         seats[1][2] = 6;
         seats[2][0] = 7;
         seats[2][1] = 8;
-        
+        // I feel this is done
         for (int i = 0; i < seats.length; i++) {
             for (int j = 0; j < seats[i].length; j++) {
                 System.out.print(seats[i][j] + " ");
