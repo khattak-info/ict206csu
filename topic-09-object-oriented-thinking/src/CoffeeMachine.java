@@ -1,38 +1,21 @@
-public class CoffeeMachine{
+public class CoffeeMachine {
     private int machineNumber;
-    private int yearManufactured;
-    private int coffeesMade;
 
-    CoffeeMachine(){
-        coffeesMade = 0;
-
-    }
-
-    public void makeCoffee(){
-        coffeesMade++;
-    }
-
-    public int getCoffeesMade() {
-        return coffeesMade;
-    }
-
-    public void setCoffeesMade(int coffeesMade) {
-        this.coffeesMade = coffeesMade;
-    }
-
-    public int getMachineNumber() {
-        return machineNumber;
-    }
-
-    public int getYearManufactured() {
-        return yearManufactured;
-    }
-
-    public void setYearManufactured(int yearManufactured) {
-        this.yearManufactured = yearManufactured;
-    }
-
-    public void setMachineNumber(int machineNumber) {
+    public CoffeeMachine(int machineNumber) {
         this.machineNumber = machineNumber;
     }
+
+    public void makeCoffee(int strength, String milkType) {
+        CoffeeMaker coffeeMaker = new CoffeeMaker(strength);
+        coffeeMaker.brewCoffee();
+
+        MilkDispenser milkDispenser = new MilkDispenser(milkType);
+        milkDispenser.dispenseMilk();
+
+        System.out.println("Coffee made by machine number: " + machineNumber);
+        System.out.println("Coffee strength: " + strength);
+        System.out.println("Milk type: " + milkType);
+        System.out.println("Enjoy your coffee!");
+    }
+
 }
