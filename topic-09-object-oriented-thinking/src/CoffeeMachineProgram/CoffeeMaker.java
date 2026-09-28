@@ -1,3 +1,4 @@
+package src.CoffeeMachineProgram;
 public class CoffeeMaker {
     
     private int strength;

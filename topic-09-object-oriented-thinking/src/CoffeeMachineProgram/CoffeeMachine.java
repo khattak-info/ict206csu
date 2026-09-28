@@ -1,3 +1,4 @@
+package CoffeeMachineProgram;
 public class CoffeeMachine {
     private int machineNumber;
 

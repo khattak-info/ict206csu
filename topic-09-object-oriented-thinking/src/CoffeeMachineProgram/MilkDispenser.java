@@ -1,3 +1,4 @@
+package CoffeeMachineProgram;
 public class MilkDispenser{
     private String milkType;
     public MilkDispenser(String milkType) {

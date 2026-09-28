@@ -1,3 +1,4 @@
+package CoffeeMachineProgram;
 public class TestCoffeeMachine {
     
     public static void main(String[] args) {
