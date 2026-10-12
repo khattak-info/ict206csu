@@ -5,17 +5,14 @@
 Hasan Ali Khattak
 Senior Lecturer
 Charles Sturt University, 2026.
-hasanali.khattak@navitas.com
+hasanali dot khattak at navitas dot com
 
 ## Structure
 
 There are 11 topic folders at the root of this repository (one per weekly topic).
 Each topic folder contains:
 - `README.md` — rich teaching notes and support content for that topic
-- `src/` — in-class example code, separated by teaching section:
-  - `src/section-01/`
-  - `src/section-02/`
-  - `src/section-03/`
+- `src/` — in-class example code, Some tasks as added as well for practice and exam preparation.
 
 ## Topics
 - `topic-01-getting-started-with-java`
