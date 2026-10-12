@@ -10,6 +10,9 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+# ignore the vscode settings folder
+.vscode/
+
 # Package Files #
 *.jar
 *.war
