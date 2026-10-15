@@ -1,4 +1,4 @@
-package examPractice;
+package finalExamPractice;
 
 class OpalTicket {
     private String holder;

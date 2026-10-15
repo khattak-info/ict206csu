@@ -1,4 +1,4 @@
-package examPractice;
+package finalExamPractice;
 class TransportPass extends OpalTicket {
     private double fare;
 

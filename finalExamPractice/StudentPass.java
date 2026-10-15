@@ -1,4 +1,4 @@
-package examPractice;
+package finalExamPractice;
 
 class StudentPass extends TransportPass implements DiscountableInterface {
     final private double discount;
